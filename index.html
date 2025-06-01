@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Recommendation</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+    .navbar {
+      display: flex;
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 1rem;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .navbar a {
+      color: white;
+      margin-right: 15px;
+      text-decoration: none;
+    }
+    .search-bar {
+      display: flex;
+    }
+    .search-bar input {
+      padding: 5px;
+    }
+    .search-bar button {
+      padding: 6px;
+      margin-left: 5px;
+    }
+    .content-section {
+      display: none;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.6);
+      margin: 2rem;
+      border-radius: 8px;
+    }
+    .active {
+      display: block;
+    }
+    .result-card {
+      background: white;
+      color: black;
+      padding: 1rem;
+      margin: 1rem auto;
+      width: 80%;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      border-radius: 8px;
+    }
+    .result-card img {
+      width: 100%;
+      max-width: 400px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div>
+      <a href="#" onclick="showSection('home')">Home</a>
+      <a href="#" onclick="showSection('about')">About Us</a>
+      <a href="#" onclick="showSection('contact')">Contact Us</a>
+    </div>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search...">
+      <button onclick="searchData()">Search</button>
+      <button onclick="clearResults()">Reset</button>
+    </div>
+  </div>
+
+  <div id="home" class="content-section active">
+    <h1>Welcome to Travel Recommendation</h1>
+    <p>Search for beaches, temples, countries or cities to explore!</p>
+    <div id="results"></div>
+  </div>
+
+  <div id="about" class="content-section">
+    <h2>About Us</h2>
+    <p>We are a team of travel enthusiasts who aim to help people explore the most beautiful destinations around the world.</p>
+    <h3>Our Team</h3>
+    <ul>
+      <li>Srivalli Nalla - Developer</li>
+      <li>Alex Johnson - Designer</li>
+      <li>Maya Liu - Content Manager</li>
+    </ul>
+  </div>
+
+  <div id="contact" class="content-section">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Name" required><br><br>
+      <input type="email" placeholder="Email" required><br><br>
+      <textarea placeholder="Your message here" rows="5"></textarea><br><br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="travel_recommendation.js"></script>
+</body>
+</html>
