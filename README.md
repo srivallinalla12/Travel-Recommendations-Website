@@ -16,15 +16,6 @@ Welcome to **TravelBloom**, an intelligent travel recommendation web application
 
 ---
 
-## 📁 Project Structure
-
-project-folder/
-├── index.html # Main single-page web application
-├── data.json # Travel recommendations (beaches, temples, cities)
-└── README.md # Project documentation (this file)
-
----
-
 ## 🛠️ Technologies Used
 
 - **HTML5**
