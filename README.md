@@ -53,8 +53,8 @@ Welcome to **TravelBloom**, an intelligent travel recommendation web application
 
 👩‍💻 Author
 
-Srivalli Nalla
-Software Developer
+- Srivalli Nalla
+- Software Developer
 
 ---
 
