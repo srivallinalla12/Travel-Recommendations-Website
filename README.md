@@ -60,8 +60,8 @@ Welcome to **TravelBloom**, an intelligent travel recommendation web application
 
 🙏 Acknowledgements
 
-Wikipedia for public image URLs
-Live Server (VS Code Extension)
-OpenAI ChatGPT for development guidance
+- Wikipedia for public image URLs
+- Live Server (VS Code Extension)
+- OpenAI ChatGPT for development guidance
 
 ---
