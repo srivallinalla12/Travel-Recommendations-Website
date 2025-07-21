@@ -28,9 +28,13 @@ Welcome to **TravelBloom**, an intelligent travel recommendation web application
 
 ## 🚀 How to Run This Project
 
-### Option 1: Using VS Code + Live Server (Recommended)
+### Using VS Code + Live Server 
 
-1. Clone or download this repository.
+### 1️⃣ Clone or download this repository:
+
+```bash
+git clone https://github.com/srivallinalla12/Travel-Recommendations-Website.git
+``` 
 2. Open the folder in **Visual Studio Code**.
 3. Install the **Live Server** extension if not already installed.
 4. Right-click `index.html` and click **"Open with Live Server"**.
