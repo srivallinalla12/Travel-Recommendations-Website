@@ -30,7 +30,7 @@ Welcome to **TravelBloom**, an intelligent travel recommendation web application
 
 ### Using VS Code + Live Server 
 
-### 1️⃣ Clone or download this repository:
+### 1. Clone or download this repository:
 
 ```bash
 git clone https://github.com/srivallinalla12/Travel-Recommendations-Website.git
